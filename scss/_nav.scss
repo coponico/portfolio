@@ -1,0 +1,43 @@
+header {
+    background: #222831;
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        .logo {
+            .title {
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        .nav-menu {
+            height: 5rem;
+            padding: 1rem;
+            margin: 0 0 0 2rem ;
+        
+            &__ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: flex-end;
+        
+        
+                &__item {
+                    margin: 0.8rem;
+                    width: 6.5rem;
+                }
+        
+                &__link {
+                    text-decoration: none;
+                    color: #DDDDDD;
+                    font-size: 1.4rem;
+                    transition: ease-out .5s;
+                    
+                    &:hover {
+                        font-size: 1.5rem;
+                        color: #F05454;
+                        transition: ease-in .3s;
+                    }
+                }
+            }
+        }
+    }
+}
