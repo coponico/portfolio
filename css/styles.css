@@ -16,7 +16,7 @@ header {
   header .container {
     display: grid;
     height: 8rem;
-    grid-template-columns: 20% 55% 45%;
+    grid-template-columns: 20% 55% 25%;
     grid-template-rows: 20% 60% 20%; }
     header .container .logo {
       grid-row: 2; }
