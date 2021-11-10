@@ -58,7 +58,7 @@ header {
           display: block;
           background: #222831;
           margin: 0;
-          width: 9rem;
+          width: 10rem;
           padding: 1.2rem;
           list-style: none;
           border-bottom: 1px solid white; }
@@ -117,8 +117,8 @@ section {
   section img {
     shape-outside: circle();
     margin: 1rem;
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     grid-row: 2;
     border-radius: 50%;
     float: left; }
